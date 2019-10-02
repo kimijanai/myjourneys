@@ -6,23 +6,24 @@ $open-sans:            'Open Sans';
 $open-sans-sans-serif: 'Open Sans', sans-serif;
 $merriweather-serif:   'Merriweather', serif;
 $monospace:             Menlo, Consolas, monospace;
+$vietnamese-font:       Helvetica,Arial,sans-serif;
 
-$font-family-base: $open-sans-sans-serif;
+$font-family-base: $vietnamese-font;
 
 $font-families: (
    // base
-   'headings':          $open-sans-sans-serif,
+   'headings':          $vietnamese-font,
    // components
    'code':              $monospace,
-   'caption':           $merriweather-serif,
-   'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
-   'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
+   'caption':           $vietnamese-font,
+   'image-gallery':     $vietnamese-font,
+   'post-header-cover': $vietnamese-font,
+   'post-meta':         $vietnamese-font,
+   'post-content':      $vietnamese-font,
+   'post-excerpt-link': $vietnamese-font,
    'highlight':         $monospace,
    // layout
-   'sidebar':           $open-sans-sans-serif
+   'sidebar':           $vietnamese-font
 );
 
 // equal to 15px
